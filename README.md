@@ -1,11 +1,25 @@
-# Sample Snack app
+# 💪 TrainingEasy
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+O **TrainingEasy** é um aplicativo mobile focado no gerenciamento de rotinas para alunos de academia. Desenvolvido em React Native com a plataforma Expo, o app permite a consulta de avisos, gerenciamento da ficha de treinos ABC, agendamento de avaliações físicas, mural de aniversariantes e controle de mensalidades.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+#Você pode testar e rodar o projeto de duas formas:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### 1. Via Expo Snack (Online e Sem Instalação)
+1. Acesse o projeto publicado no Expo Snack através do link: `[https://snack.expo.dev/@limagiovanna1/trainingeasy]`
+2. No painel simulador do lado direito, clique na aba **"Web"**.
+3. O aplicativo vai carregar direto no seu navegador. Digite qualquer e-mail/senha e clique em **"Entrar no App"** para navegar.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### 2. Rodando Localmente (Via Terminal)
+Caso queira clonar e rodar o projeto na sua máquina, siga os passos abaixo:
+
+```bash
+# 1. Clone este repositório
+git clone [https://github.com/GiovannaLima1/trainingeasy]
+cd trainingeasy
+
+# 2. Instale as dependências do projeto
+npm install
+
+# 3. Inicie o servidor do Expo
+npx expo start
